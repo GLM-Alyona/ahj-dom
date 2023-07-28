@@ -1,0 +1,55 @@
+{
+  "name": "ahj-dom",
+  "version": "1.0.0",
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/xqbnwo5wgvusnmot?svg=true)](https://ci.appveyor.com/project/GLM-Alyona/ahj-dom)",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "lint": "eslint .",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "doc": "jsdoc -c jsdoc.conf.json",
+    "preshow:coverage": "npm run coverage",
+    "show:coverage": "live-server coverage/lcov-report",
+    "preshow:doc": "npm run doc",
+    "show:doc": "live-server doc",
+    "preshow:dist": "npm run build",
+    "show:dist": "live-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GLM-Alyona/ahj-dom.git"
+  },
+  "author": "Alyona Gyulumyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GLM-Alyona/ahj-dom/issues"
+  },
+  "homepage": "https://github.com/GLM-Alyona/ahj-dom#readme",
+  "dependencies": {
+    "core-js": "^3.31.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "babel-jest": "^29.0.3",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^5.2.7",
+    "css-minimizer-webpack-plugin": "^4.1.0",
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.5.2",
+    "jest": "^29.0.3",
+    "live-server": "^1.2.1",
+    "mini-css-extract-plugin": "^1.6.2",
+    "terser-webpack-plugin": "^5.0.3",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
