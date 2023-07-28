@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/82o3k3wmpo1ovang?svg=true)](https://ci.appveyor.com/project/GLM-Alyona/ahj-dom-1i4fb)
+[![Build status](https://ci.appveyor.com/api/projects/status/03p5pt3cowbbt021?svg=true)](https://ci.appveyor.com/project/GLM-Alyona/ahj-dom)
 
 # Домашнее задание к занятию "2. DOM"
 
